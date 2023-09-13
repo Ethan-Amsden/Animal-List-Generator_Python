@@ -1,0 +1,53 @@
+MVC Pattern:----------
+
+MODEL:
+----------
+Module for creating the DB initially:
+
+SQLite Handling Module:
+    functions that handle adding, deleting, updating tables,
+    functions that handle adding, deleting, updating records,
+    function that connect to the database,
+
+
+VIEW:
+----------
+GUI INTERFACES:
+    Main:
+        Dropdown list of 1-5:
+            End-user picks desired number of animals in the list
+        TextField display bar:
+            display's list of random animals generated from the DB
+        Generate Button:
+            Generates a random list of animals for end-users inspiration of a fictional animal.
+        Modify DB button:
+            takes you to Add/Update Form interface
+
+    Add/Update Record Form:
+        Tables dropdown list:
+
+        Animal Name Entry Field:
+
+        Animal Description Entry Field:
+
+    Delete Record Form:
+        Displays table dropdown menu then displays the rows of selected table.
+        Able to pick the row to be deleted.
+
+CONTROL:
+----------
+*Scripte that switches the interface depending on 
+
+____________________
+____________________
+
+THINGS TO ADD TO THE NEXT VERSIONS OF THE ANIMAL LIST GENERATOR APP:
+
+(2.0) A window that shows the records of desired table
+(3.0) A form that adds/deletes records from the DB
+(4.0) App saves the generated lists temporarily in a textField widget where the user can copy and paste from
+(4.1) print button for printing the content within the textField widget 
+(5.0) Profile windows for each user that stores saved animal lists
+    (5.1) passwords required for each user 
+(6.0) User can store fictional animal designs in their own table
+    
